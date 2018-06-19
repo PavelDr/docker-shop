@@ -4,5 +4,4 @@ tmp/*
 !*/.gitkeep
 /projects/*/
 .env
-data
-projects
+/data/*/
