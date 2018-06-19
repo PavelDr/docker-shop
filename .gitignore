@@ -5,3 +5,14 @@ tmp/*
 /projects/*/
 .env
 /data/*/
+/vendor
+.idea
+.vagrant
+Homestead.json
+Homestead.yaml
+_ide_helper.php
+.phpstorm.meta.php
+.DS_Store
+.env.*
+storage/logs
+!.env.local
