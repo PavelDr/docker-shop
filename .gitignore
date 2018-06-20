@@ -4,6 +4,8 @@
 tmp/*
 !*/.gitkeep
 /projects/*/
+/projects/lara-shop/
+/projects/aimeos-shop/
 .env
 /data/*/
 /vendor
