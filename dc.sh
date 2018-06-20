@@ -24,6 +24,11 @@ if [ ${PROJECT} = 'lara-shop' ]
     PROJECT="$PROJECT nginx-1.10 postgres-9.5 mysql-5.7 weave-scope"
 fi
 
+if [ ${PROJECT} = 'aimeos-shop' ]
+    then
+    PROJECT="$PROJECT nginx-1.10 postgres-9.5 mysql-5.7 weave-scope"
+fi
+
 # Check if command is not require specify container name
 if [[ " ${EXCLUDED_COMMANDS[*]} " == *" ${COMMAND} "* ]]
     then
